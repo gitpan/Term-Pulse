@@ -1,0 +1,21 @@
+---
+name: Term-Pulse
+version: v0.01
+author:
+  - 'Alec Chen <alec@cpan.org>'
+abstract: show progress bar in terminal
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+  Time::HiRes: 1.9715
+  version: 0.76
+provides:
+  Term::Pulse:
+    file: lib/Term/Pulse.pm
+    version: v0.01
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
