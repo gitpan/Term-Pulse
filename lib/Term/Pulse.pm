@@ -5,15 +5,15 @@ use strict;
 
 =head1 NAME
 
-Term::Pulse - show progress bar in terminal
+Term::Pulse - show pulsed progress bar in terminal
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-use version; our $VERSION = qv('0.01');
+use version; our $VERSION = qv('0.02');
 our @ISA = qw(Exporter);
 our @EXPORT = qw(pulse_start pulse_stop);
 
@@ -87,7 +87,7 @@ sub pulse_start {
 
 =head2 pulse_stop()
 
-    Stop the pulse and return elapsed time
+Stop the pulse and return elapsed time
 
 =cut
 
@@ -98,6 +98,10 @@ sub pulse_stop {
     my $elapsed_time = time - $global_start_time;
     return $elapsed_time;
 }
+
+=head1 KNOWN PROBLEMS
+
+Not thread safe.
 
 =head1 AUTHOR
 
