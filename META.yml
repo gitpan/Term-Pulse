@@ -1,21 +1,24 @@
 ---
-name: Term-Pulse
-version: v0.02
+abstract: 'show pulsed progress bar in terminal'
 author:
   - 'Alec Chen <alec@cpan.org>'
-abstract: show pulsed progress bar in terminal
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
 license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Term-Pulse
+no_index:
+  directory:
+    - examples
+    - inc
+    - t
 resources:
   license: http://dev.perl.org/licenses/
-build_requires:
-  Test::More: 0
-  Time::HiRes: 1.9715
-  version: 0.76
-provides:
-  Term::Pulse:
-    file: lib/Term/Pulse.pm
-    version: v0.02
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+version: 0.03

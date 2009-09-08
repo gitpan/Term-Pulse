@@ -9,11 +9,11 @@ Term::Pulse - show pulsed progress bar in terminal
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-use version; our $VERSION = qv('0.02');
+our $VERSION = '0.03';
 our @ISA = qw(Exporter);
 our @EXPORT = qw(pulse_start pulse_stop);
 
@@ -109,13 +109,13 @@ Yen-Liang Chen, C<< <alec at cpan.com> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-tsmc-pulse at rt.cpan.org>, or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TSMC-Pulse>. I will be notified, and then you'll automatically be notified of progress on your bug as I make changes.
+Please report any bugs or feature requests to C<bug-term-pulse at rt.cpan.org>, or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Term-Pulse>. I will be notified, and then you'll automatically be notified of progress on your bug as I make changes.
 
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc TSMC::Pulse
+    perldoc Term::Pulse
 
 
 You can also look for information at:
@@ -124,19 +124,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=TSMC-Pulse>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Term-Pulse>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/TSMC-Pulse>
+L<http://annocpan.org/dist/Term-Pulse>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/TSMC-Pulse>
+L<http://cpanratings.perl.org/d/Term-Pulse>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/TSMC-Pulse>
+L<http://search.cpan.org/dist/Term-Pulse>
 
 =back
 
@@ -150,4 +150,4 @@ under the same terms as Perl itself.
 
 =cut
 
-1; # End of TSMC::Pulse
+1; # End of Term::Pulse
